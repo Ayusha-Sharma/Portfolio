@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This site highlights my background, skills, projects, and experience as a Computer Science student.
 
-🔗 **Live Website:** https://ayusha-sharma.github.io/Protfolio/
+🔗 **Live Website:** https://ayusha-sharma.github.io/Portfolio/
 
 ---
 
