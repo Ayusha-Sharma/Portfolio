@@ -175,12 +175,12 @@ section{min-height:100vh;position:relative;scroll-snap-align:start;display:flex;
 .project-card.featured{grid-column:span 2;background:linear-gradient(135deg,rgba(0,212,255,0.05),rgba(167,139,250,0.03));}
 .project-card.featured .project-title{font-size:1.5rem;}
 .project-card:after {
-  pointer-events: none; /* ADD THIS */
+  pointer-events: none; 
 }
 
 .project-link {
-  position: relative;  /* ADD THIS */
-  z-index: 2;          /* ADD THIS */
+  position: relative;  
+  z-index: 2;          
 }
 
 #experience{background:var(--bg2);}
@@ -268,7 +268,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:1.4rem 4r
       <p class="hero-greeting">Hello, I'm</p>
       <h1 class="hero-name">Ayusha<br><span class="highlight">Sharma</span></h1>
       <p class="hero-role">CS Student · <span>Debugging Life One Line at a Time</span></p>
-      <p class="hero-desc">Computer Science sophomore at Wright State University, originally from Nepal. I build tools that open doors for students navigating unfamiliar systems.</p>
+      <p class="hero-desc">Computer Science sophomore at Wright State University, originally from Nepal. Building solutions shaped by my own experience as a student navigating new systems.</p>
       <div class="hero-cta">
         <a href="#projects" class="btn-primary"><span>↗ View Work</span></a>
         <a href="mailto:sharma.314@wright.edu" class="btn-outline">Get in Touch</a>
@@ -546,7 +546,6 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:1.4rem 4r
   }
   drawPts();
 
-  // Avatar switching
   var imgFront = document.getElementById('img-front');
   var imgLeft  = document.getElementById('img-left');
   var imgRight = document.getElementById('img-right');
